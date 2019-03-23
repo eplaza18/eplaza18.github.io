@@ -167,8 +167,8 @@ form {
         margin: 0;
 }
 
-@media only screen and (max-width: 640px) {
-    .hname{
+@media only screen and (max-width: 660px) {
+    .hname {
         width: 100%;
         text-align: center;
     }
@@ -179,9 +179,12 @@ form {
         background: #ffffff;
         margin-top: 0;
     }
+    .aboutme h1 {
+        text-align: center;
+    }
     .container {
+        width: 100%;
         position: relative;
-        left: 25%;
         margin-bottom: 5em;
 
     }
@@ -191,7 +194,7 @@ form {
     }
 
     img {
-        margin: 0;
+        display: none;
     }
     .work h3 {
         width: 95.5%;
